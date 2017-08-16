@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  text-align: center;
+  background-image: url("../images/MichaelJacksonbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#wrapper {
+  width: 950px;
+  min-height: 60%;
+  box-sizing: border-box;
+  padding: 5% 0;
+  margin: 5% auto;
+  background-color: red;
+}
+#sub-wrapper {
+  position: relative;
+  top: 20%;
+}
+button {
+  display: block;
+  width: 400px;
+  height: 100px;
+  margin: 10px auto 0;
+  font-size: 42px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+h1 {
+  margin-bottom: 50px;
+  font-family: Geo, sans-serif;
+  font-size: 6.5em;
+  font-weight: bold;
+  color: blue;
+}
+h2 {
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+#start {
+  margin-top: 10%;
+  background: purple;
+  border: 2px solid blue;
+}
+#question-area h2 {
+  margin-top: 50px;
+}
+button:hover {
+  background: pink;
+  border: 2px solid black;
+}
